@@ -1,0 +1,37 @@
+/* ***************Number***************** */
+/*^* Start section number */
+.number {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../images/background/background2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 40vh;
+    text-align: center;
+}
+
+.number-item .icon {
+    color: var(--color);
+}
+
+.number-item .number-itme-decr {
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.number-item .text-number {
+    color: #fff;
+}
+
+/*^* End section number */

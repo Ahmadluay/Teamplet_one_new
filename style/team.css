@@ -1,0 +1,92 @@
+/* *************Team************** */
+/*^* Start section Team */
+.card-team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    background-color: #e8e8e8;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    padding: 40px 5px;
+
+}
+
+.card-item .image-card {
+    width: 90%;
+    margin: auto auto 10px auto;
+    position: relative;
+    height: 276px;
+}
+
+.opacity-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.opacity-card a {
+    display: block;
+    background-color: #6196ffcd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+
+.opacity-card a:hover {
+    background-color: #3577fc;
+}
+
+.opacity-card a i {
+    line-height: 40px;
+}
+
+.card-item .image-card img {
+    width: 100%;
+
+}
+
+.card-item .header-card-team {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+}
+
+.card-item .text-card-team {
+    text-transform: uppercase;
+    color: #999;
+    transition: color .5s;
+}
+
+.card-item:hover .opacity-card {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-item.ttb-effect {
+    z-index: 1;
+}
+
+.card-item:hover .header-card-team {
+    color: #fff;
+}
+
+.card-item:hover .text-card-team {
+    color: #6195ff
+}
+
+/*^* End section Team */

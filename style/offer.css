@@ -1,0 +1,46 @@
+/*^* Start Section Offer  */
+.offer-content {
+    display: flex;
+    justify-content: space-around;
+    /* width: calc(100% / 3); */
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.offer-content .offer-item {
+    border: 1px solid #e8e8e8;
+    width: 350px;
+    margin-bottom: 40px;
+    padding: 20px 15px 30px 70px;
+    position: relative;
+}
+
+.offer-content .icon {
+    color: var(--color);
+    position: absolute;
+    top: 25px;
+    left: 18px;
+}
+
+.offer-item-title {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+}
+
+.offer-item-desc {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: var(--color-gray);
+}
+
+.offer-item:hover .offer-item-title {
+    color: #fff
+}
+
+/*^* End Section Offer  */

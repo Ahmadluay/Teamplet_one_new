@@ -1,0 +1,87 @@
+/* ********touch******** */
+/*^* Start Section Touch  */
+.touchCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardElement {
+    width: 250px;
+    /* background-color: #eee; */
+    text-align: center;
+    min-height: 130px;
+}
+
+.icon {
+    font-size: 30px;
+    color: var(--color);
+    margin-bottom: 15px;
+}
+
+.cardElement p {
+    margin-top: 15px;
+    color: #757575;
+}
+
+form {
+    width: 70%;
+    margin: 50px auto 0;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 4px solid #efefef;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--color);
+    border-bottom: 2px solid var(--color);
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 80px
+}
+
+[name="text"],
+[name="email"] {
+    display: inline-block;
+    width: 48%;
+}
+
+[name="text"] {
+    margin-right: 29px;
+}
+
+.btn-form {
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: var(--color);
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 45px
+}
+
+.btn-form:hover {
+    opacity: var(--opacity);
+}
+
+/*^* End Section Touch  */

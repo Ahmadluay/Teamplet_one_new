@@ -1,0 +1,69 @@
+/* ****************massage************** */
+/*^* Start section massage */
+.massage {
+    background-image: linear-gradient(rgba(43, 43, 43, 0.75), rgba(43, 43, 43, 0.75)), url(../images/background/background3.webp);
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.massage-item {
+    /* flex rtl*/
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 975px;
+    margin: auto;
+}
+
+.massage-item-element {
+    width: 50%;
+}
+
+.massage-item-element .paragraph-textarea-massage {
+    margin-top: 20px;
+    line-height: 1.5;
+    padding-right: 40px;
+    font-size: 17px;
+}
+
+.massage-img {
+    display: flex;
+}
+
+.massage-img .image {
+    width: 55px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.massage-img .image img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.massage-text-header .header-massage {
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
+
+.massage-text-header .paragraph-massage {
+    text-transform: uppercase;
+    color: #4271cf;
+}
+
+/*^* End section massage */

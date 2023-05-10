@@ -1,0 +1,60 @@
+/* *****************Blog******************** */
+/*^* Start Section blog */
+.blog {
+    background-color: #f8f8f8;
+}
+
+.cardBlogAll {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardItem {
+    max-width: 380px;
+    background-color: #ffffff;
+}
+
+.cardItem .image {
+    width: 100%;
+}
+
+.cardItem .image img {
+    width: 100%;
+}
+
+.blog-list li {
+    list-style: none;
+    display: inline-block;
+}
+
+.blog-list li i {
+    color: var(--color);
+}
+
+/* .blog-info {
+    padding :20px;
+} */
+.blog-list,
+.blog-title,
+.blog-desc,
+.blog-link {
+    padding: 15px 40px 0 20px;
+}
+
+.blog-desc {
+    color: #757575;
+    line-height: 1.5;
+}
+
+.blog-link {
+    display: inline-block;
+    padding-bottom: 40px;
+    color: var(--color);
+}
+
+.padIcon {
+    padding: 0 10px;
+}
+
+/*^* End Section blog */

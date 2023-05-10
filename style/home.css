@@ -1,0 +1,78 @@
+/*^* Start section one*/
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, .801)), url(../images/background/background1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.home .header {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+}
+
+.home .container .center {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+.home .container .center .paragraph_home {
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin: 10px 0 15px;
+}
+
+.home .container .center .btn {
+    border: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+}
+
+.home .container .center .btn:hover {
+    opacity: var(--opacity);
+}
+
+.home .container .center .btn-more {
+    background-color: var(--color);
+    color: #fff;
+    margin-left: 5px;
+}
+
+/*^* End section one*/

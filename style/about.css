@@ -1,0 +1,67 @@
+/*^* Start Section About */
+.SecAbout {
+    min-height: 85vh;
+}
+
+.header_h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    font-size: 35px;
+}
+
+.line {
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: var(--color);
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 350px;
+    min-height: 300px;
+    box-shadow: 0 0 1px #00000058;
+    text-align: center;
+}
+
+.card:hover h3 {
+    color: #fff;
+}
+
+.card i {
+    color: var(--color);
+    font-size: 50px;
+    margin: 50px 0 20px;
+}
+
+.card h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+}
+
+.card p {
+    margin-top: 15px;
+    color: var(--color-gray);
+}
+
+.card a {
+    color: var(--color);
+    margin-top: 15px;
+    display: block;
+}
+
+.SecAbout .container .cardAbout {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/*^* End Section About */
